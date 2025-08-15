@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Speed Ranger";
+  src: url("./fonts/GunkoStreet-Outline.ttf") format("truetype");
+  src: url("./fonts/GunkoStreet-Regular.ttf") format("truetype");
+  src: url("./fonts/GunkoStreetShadow-Demo.ttf") format("truetype");
+}
+
+.speed-ranger {
+  font-family: "Speed Ranger";
+}
+
 p,
 h1 {
   margin: 0;
