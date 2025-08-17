@@ -7,6 +7,16 @@
 
 .speed-ranger {
   font-family: "Speed Ranger";
+  animation: rights-reserved-animation 3s infinite alternate;
+}
+
+@keyframes rights-reserved-animation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(10%);
+  }
 }
 
 p,
@@ -80,10 +90,20 @@ a {
 
 .profile-img {
   width: 625px;
+  animation: image-animation 3s infinite alternate;
 }
 
 footer {
   grid-area: footer;
   align-items: center;
   border-top: 1px black solid;
+}
+
+@keyframes image-animation {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.075;
+  }
 }
